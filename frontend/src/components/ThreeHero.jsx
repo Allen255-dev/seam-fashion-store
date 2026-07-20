@@ -22,7 +22,7 @@ export default function ThreeHero({ className = "" }) {
     renderer.setClearColor(0x000000, 0);
     el.appendChild(renderer.domElement);
 
-    // ─── Floating fabric ribbons ─────────────────────────────────────────────
+    // ─── Floating fabric ribbons ──────────────────────  
     const ribbons = [];
     const ribbonCount = 4;
 
